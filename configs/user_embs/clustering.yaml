@@ -1,0 +1,11 @@
+data_type: LaMP2
+cluster_num: 10
+random_query_num: 10
+train:
+  user_embs_path: '/data/user_embs_train.pt'
+  data_path: '/data/lamp/LaMP2_train.json'
+  save_path: '/data/reranker'
+test:
+  user_embs_path: '/data/user_embs_test.pt'
+  data_path: '/data/lamp/LaMP2_test.json'
+  save_path: '/data/reranker'

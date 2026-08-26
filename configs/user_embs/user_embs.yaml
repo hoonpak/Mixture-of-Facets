@@ -1,0 +1,9 @@
+data_type: 'LaMP2'
+model_name: 'BAAI/bge-base-en-v1.5'
+batch_size: 64
+train:
+  data_path: '/data/lamp/LaMP2_train.json'
+  save_path: '/data/user_embs_train.pt'
+test:
+  data_path: '/data/lamp/LaMP2_test.json'
+  save_path: '/data/user_embs_test.pt'
